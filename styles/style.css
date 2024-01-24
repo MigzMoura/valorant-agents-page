@@ -4,6 +4,8 @@
     --cor-primaria: #1C1E20;
     --cor-secundaria: #FF4656;
     --cor-terciaria: #E6E6E6;
+    --cor-gray700: #222022;
+    --cor-gray800: #1E1C1E;
 
     --font-principal: 'Inter', sans-serif;
 
@@ -21,12 +23,14 @@ html{
 }
 
 .head{
+    background-color: var(--cor-primaria);
     display: flex;
     flex-direction: row;
     padding: 40px;
 }
 
 .principal{
+    background-color: var(--cor-secundaria);
     display: flex;
     justify-content: space-between;
     padding: 75px;
@@ -35,4 +39,9 @@ html{
     .principal img{
         width: 25%;
         height: 25%;
+}
+
+.foot{
+    background-color: var(--cor-gray700);
+    display: flex;
 }
